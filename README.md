@@ -40,6 +40,8 @@ JWT_SECRET=your_super_secret_jwt_key
   ```
 - If you’re using **MongoDB Atlas**, just make sure your `MONGO_URI` in `.env` is correct and accessible.
 
+
+you could run `node seeder.js to insert dummy data
 ---
 
 ## 5. **Start the Server**
