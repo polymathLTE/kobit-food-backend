@@ -4,8 +4,8 @@ const mongoose = require("mongoose")
 const bcrypt = require("bcryptjs")
 
 
-const User = require("../models/User")
-const Restaurant = require("../models/Restaurant")
+const User = require("../src/models/User")
+const Restaurant = require("../src/models/Restaurant")
 
 const seedData = async () => {
   try {

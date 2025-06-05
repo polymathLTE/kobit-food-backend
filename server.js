@@ -9,11 +9,11 @@ require("dotenv").config()
 const app = express()
 
 // Import routes
-const authRoutes = require("./routes/auth")
-const restaurantRoutes = require("./routes/restaurants")
-const orderRoutes = require("./routes/orders")
-const userRoutes = require("./routes/users")
-const paymentRoutes = require("./routes/payments")
+const authRoutes = require("./src/routes/auth")
+const restaurantRoutes = require("./src/routes/restaurants")
+const orderRoutes = require("./src/routes/orders")
+const userRoutes = require("./src/routes/users")
+const paymentRoutes = require("./src/routes/payments")
 
 // Middleware
 app.use(helmet())
